@@ -4,13 +4,23 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ginos: La Auténtica Comida Artesanal Italiana</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
 
   <!-- BEFORE HEADER -->
   <section id="first-home-view">
-
+    <!-- IS A HEADER!!!!!! -->
     <div id="home-video">
+      <video preload="none" loop="loop" webkit-playsinline poster="../assets/media/videos/home/poster.jpg" control="false" muted="muted" autoplay id="video">
+        <source src="../assets/media/videos/home/mp4alta-pizzas_banner_03cnew_0.mp4" type="video/mp4">
+        <source src="../assets/media/videos/home/webm-pizzas_banner_03c_0.webm" type="video/webm">
+      </video>
+    </div>
+
+    <div id="overlay"></div>
+
+    <div id="content">
       <img src="../assets/media/img/logo/big-logo.png" alt="ginos-big-logo" id="ginos-big-logo">
       <p class="light-text">En Ginos ofrecemos comida italiana hecha al momento, para que saborees, descubras y sientas Italia.</p>
     </div>
@@ -113,7 +123,7 @@
 
     </section>
 
-    <!-- menu -->
+    <!-- discover menu -->
     <section id="discover-menu">
 
       <a href="carta.html" class="light-text-btn">DESCUBRE NUESTRA CARTA</a>
