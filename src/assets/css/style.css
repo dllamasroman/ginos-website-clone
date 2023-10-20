@@ -11,9 +11,47 @@ body {
   background-color: #fff;
 }
 
+.light-text {
+  color: #fff;
+  padding: 0 0 0.938rem 0;
+}
+
 /* BEFORE HEADER */
 /* -> first home view */
 /* -> home video */
+#first-home-view {
+  display: grid;
+  place-items: center;
+}
+
+#home-video {
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+}
+
+#video {
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  position: absolute;
+  z-index: -1;
+}
+
+#content {
+  display: grid;
+  place-items: center;
+  top: 24.938rem;
+  position: absolute;
+  padding: 0 0.938rem 0 0.938rem;
+}
+
+#ginos-big-logo {
+  margin: 0 0 3.375rem 0;
+}
+
 /* -> reserve form */
 
 /* HEADER */
