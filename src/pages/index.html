@@ -8,51 +8,42 @@
 </head>
 <body>
 
-  <!-- HEADER -->
-  <header>
+  <!-- BEFORE HEADER -->
+  <section id="before-header"><!-- VIDEO & NOT position: sticky; PARTS -->
 
-    <!-- VIDEO & NOT position: sticky; PARTS -->
-    <section id="first-home-view">
+    <!-- video -->
+    <video preload="none" loop="loop" webkit-playsinline poster="../assets/media/videos/home/poster.jpg" control="false" muted="muted" autoplay id="video">
+      <source src="../assets/media/videos/home/mp4alta-pizzas_banner_03cnew_0.mp4" type="video/mp4">
+      <source src="../assets/media/videos/home/webm-pizzas_banner_03c_0.webm" type="video/webm">
+    </video>
 
-      <!-- video -->
-      <article id="home-video">
-        <video preload="none" loop="loop" webkit-playsinline poster="../assets/media/videos/home/poster.jpg" control="false" muted="muted" autoplay id="video">
-          <source src="../assets/media/videos/home/mp4alta-pizzas_banner_03cnew_0.mp4" type="video/mp4">
-          <source src="../assets/media/videos/home/webm-pizzas_banner_03c_0.webm" type="video/webm">
-        </video>
-      </article>
-
-      <article id="overlay"></article>
-
-      <!-- big logo & p {light-text} -->
-      <article id="content">
-        <img src="../assets/media/img/logo/big-logo.png" alt="ginos-big-logo" id="ginos-big-logo">
-        <p class="light-text">En Ginos ofrecemos comida italiana hecha al momento, para que saborees, descubras y sientas Italia.</p>
-      </article>
-
-      <!-- dropdown form -->
-      <article id="reserve-form">
-        <a href="" class="collapse-btn">Reserva tu mesa</a>
-        <form action="#" id="reserve">
-          <input type="text" name="restaurant-address" id="restaurant-adress" required placeholder="Dirección" autocomplete="off">
-          <div id="flex-inputs">
-            <input type="date" name="reservation-date" id="reservation-date">
-            <input type="time" name="time" id="time">
-            <input type="number" name="persons-number" id="persons-number" min="1">
-          </div>
-        </form>
-      </article>
-
-    </section>
-
-    <!-- STICKY HEADER {logo & responsive menu} -->
-    <article id="sticky">
-      <!-- logo -->
-      <img src="../assets/media/img/logo/logo.png" alt="ginos-logo" class="ginos-logo">
-
-      <!-- responsive menu -->
+    <!-- big logo & p {light-text} -->
+    <article id="content">
+      <img src="../assets/media/img/logo/big-logo.png" alt="ginos-big-logo" id="ginos-big-logo">
+      <p class="light-text">En Ginos ofrecemos comida italiana hecha al momento, para que saborees, descubras y sientas Italia.</p>
     </article>
 
+  </section>
+    
+  <!-- dropdown form -->
+  <section id="reserve-form">
+    <a href="" class="collapse-btn">Reserva tu mesa</a>
+    <form action="#" id="reserve">
+      <input type="text" name="restaurant-address" id="restaurant-adress" required placeholder="Dirección" autocomplete="off">
+      <div id="flex-inputs">
+        <input type="date" name="reservation-date" id="reservation-date">
+        <input type="time" name="time" id="time">
+        <input type="number" name="persons-number" id="persons-number" min="1">
+      </div>
+    </form>
+  </section>
+
+    <!-- STICKY HEADER {logo & responsive menu} -->
+  <header id="sticky">
+    <!-- logo -->
+    <img src="../assets/media/img/logo/logo.png" alt="ginos-logo" class="ginos-logo">
+
+    <!-- responsive menu -->
   </header>
 
   <!-- MAIN CONTENT -->

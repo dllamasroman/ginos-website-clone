@@ -17,27 +17,27 @@ body {
 }
 
 /* BEFORE HEADER */
-/* -> first home view */
-/* -> home video */
-#first-home-view {
+#before-header {
   display: grid;
   place-items: center;
 }
 
-#home-video {
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-}
-
+/* -> video */
 #video {
+  top: 50%; /* with left, to center video */
+  left: 50%;
   min-width: 100%;
   min-height: 100%;
   width: auto;
   height: auto;
   position: absolute;
-  z-index: -1;
+  z-index: -1; /* position video as deep as posible */
+  background-size: cover; /* expand img (video) to fill container (home-video) */
+  transform: translateX(-50%) translateY(-50%); /* to make the video responsive */
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
 }
 
 #content {
@@ -55,8 +55,15 @@ body {
 /* -> reserve form */
 
 /* HEADER */
-/* -> header */
-/* -> menu */
+#sticky {
+  display: block;
+  position: sticky;
+  position: -webkit-sticky;
+  margin-top: 60.125rem;
+  top: 0;
+  height: 6.875rem;
+  background-color: #00553E;
+}
 
 /* MAIN CONTENT */
 /* -> find restaurant */
@@ -68,3 +75,12 @@ body {
 /* --> social networks */
 
 /* FOOTER */
+
+
+/* RESPONSIVE (media queries) */
+/* header */
+@media (max-width: 1669px) {
+  #sticky {
+    margin-top: calc(60.125rem - 6.875rem - 3.063rem - 0.813rem);
+  }
+}
