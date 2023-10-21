@@ -52,14 +52,19 @@ body {
   margin: 0 0 3.375rem 0;
 }
 
-/* -> reserve form */
+/* DROPDOWN FORM */
+#reserve-form {
+  position: absolute;
+}
+
 
 /* HEADER */
 #sticky {
   display: block;
+  position: absolute;
   position: sticky;
   position: -webkit-sticky;
-  margin-top: 60.125rem;
+  margin-top: calc(60.125rem - 2.875rem);
   top: 0;
   height: 6.875rem;
   background-color: #00553E;
@@ -75,12 +80,3 @@ body {
 /* --> social networks */
 
 /* FOOTER */
-
-
-/* RESPONSIVE (media queries) */
-/* header */
-@media (max-width: 1669px) {
-  #sticky {
-    margin-top: calc(60.125rem - 6.875rem - 3.063rem - 0.813rem);
-  }
-}
