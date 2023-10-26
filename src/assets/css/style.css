@@ -1,4 +1,8 @@
 /* fonts */
+@font-face {
+  font-family: 'zona_probold';
+  src: url('../fonts/FontsFree-Net-ZonaPro-Bold.ttf');
+}
 
 /* general styles */
 * {
@@ -9,11 +13,36 @@
 
 body {
   background-color: #fff;
+  overflow-x: hidden;
+}
+
+main {
+  background-color: #fff;
+}
+
+main section {
+  max-width: 85.375rem;
+  margin: 0 auto 0 auto;
 }
 
 .light-text {
   color: #fff;
   padding: 0 0 0.938rem 0;
+}
+
+.dark-sect-title {
+  color: #1E140D;
+  padding-bottom: 1.25rem;
+  font-size: 1.875rem;
+  font-family: 'zona_probold';
+}
+
+.orange-btn {
+  padding: 0.813rem 2.5rem 0.813rem 2.5rem;
+  background-color: #C96723;
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.875rem;
 }
 
 /* BEFORE HEADER */
@@ -57,26 +86,67 @@ body {
   position: absolute;
 }
 
-
 /* HEADER */
 #sticky {
   display: block;
   position: absolute;
   position: sticky;
   position: -webkit-sticky;
-  margin-top: calc(60.125rem - 2.875rem);
+  margin-top: calc(60.125rem - 2.875rem - 2.75rem);
   top: 0;
   height: 6.875rem;
   background-color: #00553E;
 }
 
+#sticky a:hover {
+  filter: opacity(60%);
+  -webkit-filter: opacity(60%);
+} 
+
+#navbar {
+  display: flex;
+  width: 100%;
+  max-width: 85.375rem;
+  margin: auto;
+  padding: 1.5rem 0.938rem 1.5rem 0.938rem;
+}
+
+#navbar ul {
+  display: flex;
+}
+
 /* MAIN CONTENT */
 /* -> find restaurant */
+#find-restaurant {
+  display: flex;
+  background-color: #F6F3EF;
+}
+
+#find-restaurant img {
+  width: 50rem;
+  height: 35.625rem;
+}
+
+#find-restaurant #info {
+  padding-left: calc(3.029rem + 0.938rem);
+  padding-right: 3.125rem;
+  width: 36.354rem;
+}
+
+#find-restaurant #info #info-1 {
+  padding: 1.563rem 0 1.75rem 0;
+}
+
+#find-restaurant #info #info-2 {
+  padding: 1.563rem 0 1.75rem 0;
+}
+
+#find-restaurant #info #info-2 #space {
+  height: 6.125rem;
+}
+
 /* -> auto slideshow 1 */
 /* -> discover menu */
 /* -> auto slideshow 2 */
 /* -> social */
 /* --> message */
-/* --> social networks */
-
-/* FOOTER */

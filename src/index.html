@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ginos: La Auténtica Comida Artesanal Italiana</title>
-  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/footer.css">
 </head>
 <body>
 
@@ -12,14 +13,14 @@
   <section id="before-header"><!-- VIDEO & NOT position: sticky; PARTS -->
 
     <!-- video -->
-    <video preload="none" loop="loop" webkit-playsinline poster="../assets/media/videos/home/poster.jpg" control="false" muted="muted" autoplay id="video">
-      <source src="../assets/media/videos/home/mp4alta-pizzas_banner_03cnew_0.mp4" type="video/mp4">
-      <source src="../assets/media/videos/home/webm-pizzas_banner_03c_0.webm" type="video/webm">
+    <video preload="none" loop="loop" webkit-playsinline poster="assets/media/videos/home/poster.jpg" control="false" muted="muted" autoplay id="video">
+      <source src="assets/media/videos/home/mp4alta-pizzas_banner_03cnew_0.mp4" type="video/mp4">
+      <source src="assets/media/videos/home/webm-pizzas_banner_03c_0.webm" type="video/webm">
     </video>
 
     <!-- big logo & p {light-text} -->
     <article id="content">
-      <img src="../assets/media/img/logo/big-logo.png" alt="ginos-big-logo" id="ginos-big-logo">
+      <img src="assets/media/img/logo/big-logo.png" alt="ginos-big-logo" id="ginos-big-logo">
       <p class="light-text">En Ginos ofrecemos comida italiana hecha al momento, para que saborees, descubras y sientas Italia.</p>
     </article>
 
@@ -40,10 +41,21 @@
 
     <!-- STICKY HEADER {logo & responsive menu} -->
   <header id="sticky">
-    <!-- logo -->
-    <img src="../assets/media/img/logo/logo.png" alt="ginos-logo" class="ginos-logo">
-
     <!-- responsive menu -->
+    <nav id="navbar">
+      <!-- logo -->
+      <a href="index.html"><img src="assets/media/img/logo/logo.png" alt="ginos-logo" class="ginos-logo"></a>
+      <ul>
+        <li><a href="pages/carta.html">CARTA</a></li>
+        <li><a href="pages/promociones.html">PROMOCIONES</a></li>
+        <li><a href="pages/a-domicilio.html">A DOMICILIO</a></li>
+        <li><a href="pages/take-away.html">TAKE AWAY</a></li>
+        <li><a href="pages/localizador.html">LOCALIZADOR</a></li>
+        <li><a href="pages/novedades.html">NOVEDADES</a></li>
+        <li><a href="pages/club-vips.html">CLUB VIPS</a></li>
+        <li><a href="pages/franquicias.html">FRANQUICIAS</a></li>
+      </ul>
+    </nav>
   </header>
 
   <!-- MAIN CONTENT -->
@@ -52,13 +64,18 @@
     <!-- find restaurant -->
     <section id="find-restaurant">
 
-      <img src="../assets/media/img/modulo-home-fila-1.jpg" alt="restaurante horno para pizzas">
-      <article id="info">
-        <h2 class="dark-sect-title">ENCUENTRA TU RESTAURANTE GINOS FAVORITO</h2>
-        <input type="text" name="" id=""> <!-- complete -->
-        <h2 class="sect-title">O DISFRUTA EN CASA DE TUS PLATOS GINOS PREFERIDOS</h2>
-        <a href="#" class="orange-btn">Pedir a domicilio</a>
-      </article>
+      <img src="assets/media/img/modulo-home-fila-1.jpg" alt="restaurante horno para pizzas">
+      <div id="info">
+        <div id="info-1">
+          <h2 class="dark-sect-title">ENCUENTRA TU RESTAURANTE GINOS FAVORITO</h2>
+          <input type="text" name="" id=""> <!-- complete -->
+        </div>
+        <div id="info-2">
+          <h2 class="dark-sect-title">O DISFRUTA EN CASA DE TUS PLATOS GINOS PREFERIDOS</h2>
+          <div id="space"></div>
+          <a href="#" class="orange-btn">Pedir a domicilio</a>
+        </div>
+      </div>
 
     </section>
 
@@ -68,7 +85,7 @@
       <article class="auto-slideshow">
 
         <article class="slide-fade">
-          <img src="../assets/media/img/auto-slideshow-1/mes-de-la-pizza-solidaria.jpg" alt="mes pizza solidaria" class="slide-img">
+          <img src="assets/media/img/auto-slideshow-1/mes-de-la-pizza-solidaria.jpg" alt="mes pizza solidaria" class="slide-img">
           <article class="square">
             <article class="light-square">
               <h2 class="light-sect-title">MES DE LA PIZZA SOLIDARIA</h2>
@@ -79,7 +96,7 @@
         </article>
 
         <article class="slide-fade">
-          <img src="../assets/media/img/auto-slideshow-1/nuestras-novedades-mas-esperadas.jpg" alt="nuestras novedades más esperadas" class="slide-img">
+          <img src="assets/media/img/auto-slideshow-1/nuestras-novedades-mas-esperadas.jpg" alt="nuestras novedades más esperadas" class="slide-img">
           <article class="square">
             <article class="light-square">
               <h2 class="light-sect-title">NUESTRAS NOVEDADES MÁS ESPERADAS</h2>
@@ -90,7 +107,7 @@
         </article>
 
         <article class="slide-fade">
-          <img src="../assets/media/img/auto-slideshow-1/nuevas-pastas-rellenas.jpg" alt="nuevas pastas rellenas" class="slide-img">
+          <img src="assets/media/img/auto-slideshow-1/nuevas-pastas-rellenas.jpg" alt="nuevas pastas rellenas" class="slide-img">
           <article class="square">
             <article class="light-square">
               <h2 class="light-sect-title">NUEVAS PASTAS RELLENAS</h2>
@@ -101,7 +118,7 @@
         </article>
 
         <article class="slide-fade">
-          <img src="../assets/media/img/auto-slideshow-1/good-go.jpg" alt="good go" class="slide-img">
+          <img src="assets/media/img/auto-slideshow-1/good-go.jpg" alt="good go" class="slide-img">
           <article class="square">
             <article class="light-square">
               <h2 class="light-sect-title">EVITAR EL DESPERDICIO ALIMENTARIO</h2>
@@ -131,7 +148,7 @@
 
         <a href="menu/antipasti.html">
           <article class="1">
-            <img src="../assets/media/img/discover-menu/antipasti-perfectos-para-compartir.jpg" alt="antipasti perfectos para compartir" class="4-img">
+            <img src="assets/media/img/discover-menu/antipasti-perfectos-para-compartir.jpg" alt="antipasti perfectos para compartir" class="4-img">
             <article class="small-square">
               <h4 class="4-title">ANTIPASTI PERFECTOS PARA COMPARTIR</h4>
             </article>
@@ -140,7 +157,7 @@
 
         <a href="menu/pizza-originale.html">
           <article class="1">
-            <img src="../assets/media/img/discover-menu/pizzas-estiradas-mano_0.jpg" alt="pizzas estiradas a mano" class="4-img">
+            <img src="assets/media/img/discover-menu/pizzas-estiradas-mano_0.jpg" alt="pizzas estiradas a mano" class="4-img">
             <article class="small-square">
               <h4 class="4-title">PIZZAS ESTIRADAS A MANO</h4>
             </article>
@@ -149,7 +166,7 @@
 
         <a href="menu/pasta.html">
           <article class="1">
-            <img src="../assets/media/img/discover-menu/pastas-salteadas-al-momento.jpg" alt="pastas salteadas al momento" class="4-img">
+            <img src="assets/media/img/discover-menu/pastas-salteadas-al-momento.jpg" alt="pastas salteadas al momento" class="4-img">
             <article class="small-square">
               <h4 class="4-title">PASTAS SALTEADAS AL MOMENTO</h4>
             </article>
@@ -158,7 +175,7 @@
 
         <a href="menu/postres.html">
           <article class="1">
-            <img src="../assets/media/img/discover-menu/postres-originales_0.jpg" alt="postres originales" class="4-img">
+            <img src="assets/media/img/discover-menu/postres-originales_0.jpg" alt="postres originales" class="4-img">
             <article class="small-square">
               <h4 class="4-title">DELICIOSOS POSTRES DE INSPIRACIÓN ITALIANA</h4>
             </article>
@@ -175,7 +192,7 @@
       <article class="auto-slideshow">
 
         <article class="slide-fade">
-          <img src="../assets/media/img/auto-slideshow-1/mes-de-la-pizza-solidaria.jpg" alt="mes pizza solidaria" class="slide-img">
+          <img src="assets/media/img/auto-slideshow-1/mes-de-la-pizza-solidaria.jpg" alt="mes pizza solidaria" class="slide-img">
           <article class="square">
             <article class="light-square">
               <h2 class="light-sect-title">MES DE LA PIZZA SOLIDARIA</h2>
@@ -186,7 +203,7 @@
         </article>
 
         <article class="slide-fade">
-          <img src="../assets/media/img/auto-slideshow-1/nuestras-novedades-mas-esperadas.jpg" alt="nuestras novedades más esperadas" class="slide-img">
+          <img src="assets/media/img/auto-slideshow-1/nuestras-novedades-mas-esperadas.jpg" alt="nuestras novedades más esperadas" class="slide-img">
           <article class="square">
             <article class="light-square">
               <h2 class="light-sect-title">NUESTRAS NOVEDADES MÁS ESPERADAS</h2>
@@ -197,7 +214,7 @@
         </article>
 
         <article class="slide-fade">
-          <img src="../assets/media/img/auto-slideshow-1/nuevas-pastas-rellenas.jpg" alt="nuevas pastas rellenas" class="slide-img">
+          <img src="assets/media/img/auto-slideshow-1/nuevas-pastas-rellenas.jpg" alt="nuevas pastas rellenas" class="slide-img">
           <article class="square">
             <article class="light-square">
               <h2 class="light-sect-title">NUEVAS PASTAS RELLENAS</h2>
@@ -208,7 +225,7 @@
         </article>
 
         <article class="slide-fade">
-          <img src="../assets/media/img/auto-slideshow-1/good-go.jpg" alt="good go" class="slide-img">
+          <img src="assets/media/img/auto-slideshow-1/good-go.jpg" alt="good go" class="slide-img">
           <article class="square">
             <article class="light-square">
               <h2 class="light-sect-title">EVITAR EL DESPERDICIO ALIMENTARIO</h2>
@@ -235,9 +252,6 @@
       <article id="message">
 
       </article>
-      <article id="social-networks">
-
-      </article>
 
     </section>
 
@@ -245,6 +259,8 @@
 
   <!-- FOOTER -->
   <footer>
+
+    <article class="social-networks"></article>
 
   </footer>
 
