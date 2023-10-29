@@ -1,3 +1,57 @@
 footer {
   background-color: #1e140d;
 }
+
+.social-networks {
+  background-color: #A49B8D;
+}
+
+.social-networks ul {
+  padding: 2.813rem 0.938rem 2.5rem 0.938rem;
+  display: flex;
+  max-width: 85.375rem;
+  margin: auto;
+  list-style: none;
+}
+
+.social-networks ul li {
+  margin-right: 5.313rem;
+  padding-right: 0.313rem;
+}
+
+.social-networks ul .remove-margin-left {
+  margin-right: 0;
+  margin-bottom: 0.938rem;
+}
+
+.social-networks ul li a {
+  font-size: 1.875rem;
+  font-family: 'zona_probold';
+  text-decoration: none;
+  color: #fff;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+}
+
+.social-networks ul li a:hover {
+  filter: opacity(60%);
+  -webkit-filter: opacity(60%);
+}
+
+.social-networks ul li a span {
+  margin-right: 1.25rem;
+}
+
+.social-networks ul li a span svg {
+  width: 1.875rem;
+  height: 1.875rem;
+}
+
+.content {
+  padding: 0 0.938rem 0 0.938rem;
+  max-width: 85.375rem;
+  margin: auto;
+}

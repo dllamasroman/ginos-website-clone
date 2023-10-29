@@ -98,6 +98,14 @@ main section {
   background-color: #00553E;
 }
 
+#sticky a {
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+}
+
 #sticky a:hover {
   filter: opacity(60%);
   -webkit-filter: opacity(60%);
