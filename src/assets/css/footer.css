@@ -55,3 +55,57 @@ footer {
   max-width: 85.375rem;
   margin: auto;
 }
+
+.footer-ul {
+  display: flex;
+  padding-top: 1.875rem;
+  margin-bottom: 0.625rem;
+}
+
+.footer-ul li {
+  margin-right: 1.563rem;
+  list-style: none;
+}
+
+.footer-ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.938rem;
+}
+
+.small-ul-text {
+  font-size: 0.813rem;
+}
+
+hr {
+  margin: 1.25rem 0 1.25rem 0;
+  border: 0;
+  border-top: 1px solid #343434;
+}
+
+strong {
+  color: #a49b8d;
+  font-size: 1rem;
+}
+
+.footer-ul-2 {
+  display: block;
+  columns: 4;
+}
+
+.footer-ul-pt {
+  padding-top: 0.938rem;
+}
+
+.footer-a-transition {
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+}
+
+.footer-a-transition:hover {
+  filter: opacity(60%);
+  -webkit-filter: opacity(60%);
+}

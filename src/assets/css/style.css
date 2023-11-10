@@ -4,6 +4,11 @@
   src: url('../fonts/FontsFree-Net-ZonaPro-Bold.ttf');
 }
 
+@font-face {
+  font-family: 'open_sans';
+  src: url('../fonts/OpenSans-VariableFont_wdth\,wght.ttf');
+}
+
 /* general styles */
 * {
   margin: 0;
@@ -14,6 +19,8 @@
 body {
   background-color: #fff;
   overflow-x: hidden;
+  font-family: 'open_sans';
+  font-weight: 400;
 }
 
 main {
