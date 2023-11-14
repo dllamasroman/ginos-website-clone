@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/footer.css">
 </head>
-<>
+<article>
 
   <!-- BEFORE HEADER -->
   <section id="before-header"><!-- VIDEO & NOT position: sticky; PARTS -->
@@ -135,77 +135,90 @@
 
     </section> -->
 
-    <div class="slideshow-container">
+    <section class="auto-slideshow">
 
-      <div class="mySlides fade">
-        <img src="assets/media/img/auto-slideshow-1/mes-de-la-pizza-solidaria.jpg" style="width:100%">
-      </div>
+      <article class="slide fade">
+        <img src="assets/media/img/auto-slideshow-1/mes-de-la-pizza-solidaria.jpg">
+      </article>
 
-      <div class="mySlides fade">
-        <img src="assets/media/img/auto-slideshow-1/nuestras-novedades-mas-esperadas.jpg" style="width:100%">
-      </div>
+      <article class="slide fade">
+        <img src="assets/media/img/auto-slideshow-1/nuestras-novedades-mas-esperadas.jpg">
+      </article>
 
-      <div class="mySlides fade">
-        <img src="assets/media/img/auto-slideshow-1/nuevas-pastas-rellenas.jpg" style="width:100%">
-      </div>
+      <article class="slide fade">
+        <img src="assets/media/img/auto-slideshow-1/nuevas-pastas-rellenas.jpg">
+      </article>
 
-    </div>
+      <article class="slide fade">
+        <img src="assets/media/img/auto-slideshow-1/good-go.jpg">
+      </article>
 
-    <div style="text-align:center">
+    </section>
+
+    <div class="dots">
       <span class="dot"></span> 
       <span class="dot"></span> 
       <span class="dot"></span> 
+      <span class="dot"></span>
     </div>
 
     <!-- discover menu -->
     <section id="discover-menu">
 
-      <a href="carta.html" class="light-text-btn">DESCUBRE NUESTRA CARTA</a>
+      <h3><a href="carta.html" class="light-text">DESCUBRE NUESTRA CARTA</a></h3>
 
       <article class="4">
 
-        <a href="menu/antipasti.html">
-          <article class="1">
-            <img src="assets/media/img/discover-menu/antipasti-perfectos-para-compartir.jpg" alt="antipasti perfectos para compartir" class="4-img">
-            <article class="small-square">
-              <h4 class="4-title">ANTIPASTI PERFECTOS PARA COMPARTIR</h4>
-            </article>
-          </article>
-        </a>
+        <div class="row">
 
-        <a href="menu/pizza-originale.html">
-          <article class="1">
-            <img src="assets/media/img/discover-menu/pizzas-estiradas-mano_0.jpg" alt="pizzas estiradas a mano" class="4-img">
-            <article class="small-square">
-              <h4 class="4-title">PIZZAS ESTIRADAS A MANO</h4>
-            </article>
-          </article>
-        </a>
+          <a href="menu/antipasti.html">
+            <div class="1">
+              <img src="assets/media/img/discover-menu/antipasti-perfectos-para-compartir.jpg" alt="antipasti perfectos para compartir" class="4-img">
+              <div class="small-square">
+                <h4 class="4-title">ANTIPASTI PERFECTOS PARA COMPARTIR</h4>
+              </div>
+            </div>
+          </a>
 
-        <a href="menu/pasta.html">
-          <article class="1">
-            <img src="assets/media/img/discover-menu/pastas-salteadas-al-momento.jpg" alt="pastas salteadas al momento" class="4-img">
-            <article class="small-square">
-              <h4 class="4-title">PASTAS SALTEADAS AL MOMENTO</h4>
-            </article>
-          </article>
-        </a>
+          <a href="menu/pizza-originale.html">
+            <div class="1">
+              <img src="assets/media/img/discover-menu/pizzas-estiradas-mano_0.jpg" alt="pizzas estiradas a mano" class="4-img">
+              <div class="small-square">
+                <h4 class="4-title">PIZZAS ESTIRADAS A MANO</h4>
+              </div>
+            </div>
+          </a>
 
-        <a href="menu/postres.html">
-          <article class="1">
-            <img src="assets/media/img/discover-menu/postres-originales_0.jpg" alt="postres originales" class="4-img">
-            <article class="small-square">
-              <h4 class="4-title">DELICIOSOS POSTRES DE INSPIRACIÓN ITALIANA</h4>
-            </article>
-          </article>
-        </a>
+        </div>
+
+        <div class="row">
+
+          <a href="menu/pasta.html">
+            <div class="1">
+              <img src="assets/media/img/discover-menu/pastas-salteadas-al-momento.jpg" alt="pastas salteadas al momento" class="4-img">
+              <div class="small-square">
+                <h4 class="4-title">PASTAS SALTEADAS AL MOMENTO</h4>
+              </div>
+            </div>
+          </a>
+
+          <a href="menu/postres.html">
+            <div class="1">
+              <img src="assets/media/img/discover-menu/postres-originales_0.jpg" alt="postres originales" class="4-img">
+              <div class="small-square">
+                <h4 class="4-title">DELICIOSOS POSTRES DE INSPIRACIÓN ITALIANA</h4>
+              </div>
+            </div>
+          </a>
+
+        </div>
 
       </article>
 
     </section>
 
     <!-- auto slideshow 2 -->
-    <section id="auto-slideshow-2">
+    <!-- <section id="auto-slideshow-2">
 
       <article class="auto-slideshow">
 
@@ -253,16 +266,34 @@
           </article>
         </article>
 
+      </article> -->
+
+    <section class="auto-slideshow">
+
+      <article class="slide2 fade">
+        <img src="assets/media/img/auto-slideshow-2/ginos-abre-sus-puertas-en-gran-via-63-madrid.jpg">
       </article>
 
-      <article class="dots">
-        <span class="dot"></span>
-        <span class="dot"></span>
-        <span class="dot"></span>
-        <span class="dot"></span>
+      <article class="slide2 fade">
+        <img src="assets/media/img/auto-slideshow-2/ginos-abre-sus-puertas-en-talavera-de-la-reina.jpg">
+      </article>
+
+      <article class="slide2 fade">
+        <img src="assets/media/img/auto-slideshow-2/ginos-reabre-en-almeria.jpg">
+      </article>
+
+      <article class="slide2 fade">
+        <img src="assets/media/img/auto-slideshow-2/ginos-reabre-sus-puertas-en-glorieta-de-quevedo.jpg">
       </article>
 
     </section>
+
+    <div class="dots">
+      <span class="dot2"></span> 
+      <span class="dot2"></span> 
+      <span class="dot2"></span> 
+      <span class="dot2"></span>
+    </div>
 
     <!-- social -->
     <section id="social">
@@ -365,6 +396,7 @@
 
   <!-- scripts -->
   <script src="assets/js/slide.js"></script>
+  <script src="assets/js/slide2.js"></script>
 
 </body>
 </html>
