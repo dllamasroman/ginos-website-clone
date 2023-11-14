@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/footer.css">
 </head>
-<body>
+<>
 
   <!-- BEFORE HEADER -->
   <section id="before-header"><!-- VIDEO & NOT position: sticky; PARTS -->
@@ -80,54 +80,50 @@
     </section>
 
     <!-- auto slideshow 1 -->
-    <section id="auto-slideshow-1">
+    <!-- <section class="auto-slideshow">
 
-      <article class="auto-slideshow">
 
-        <article class="slide-fade">
-          <img src="assets/media/img/auto-slideshow-1/mes-de-la-pizza-solidaria.jpg" alt="mes pizza solidaria" class="slide-img">
-          <article class="square">
-            <article class="light-square">
-              <h2 class="light-sect-title">MES DE LA PIZZA SOLIDARIA</h2>
-              <p class="light-text">Añade a tu pizza un ingrediente extra de solidaridad.</p>
-              <a href="#" class="orange-btn">Más información</a>
-            </article>
-          </article>
-        </article>
+      <article class="slide fade">
+        <img src="assets/media/img/auto-slideshow-1/mes-de-la-pizza-solidaria.jpg" alt="mes pizza solidaria" class="slide-img">
+        <div class="square">
+        <div class="light-square">
+          <h2 class="light-sect-title">MES DE LA PIZZA SOLIDARIA</h2>
+          <p class="light-text">Añade a tu pizza un ingrediente extra de solidaridad.</p>
+          <a href="#" class="orange-btn">Más información</a>
+        </div>
+      </article>
 
-        <article class="slide-fade">
-          <img src="assets/media/img/auto-slideshow-1/nuestras-novedades-mas-esperadas.jpg" alt="nuestras novedades más esperadas" class="slide-img">
-          <article class="square">
-            <article class="light-square">
-              <h2 class="light-sect-title">NUESTRAS NOVEDADES MÁS ESPERADAS</h2>
-              <p class="light-text">¡Ven y pruébalas!</p>
-              <a href="#" class="orange-btn">Más información</a>
-            </article>
-          </article>
-        </article>
+      <article class="slide fade">
+        <img src="assets/media/img/auto-slideshow-1/nuestras-novedades-mas-esperadas.jpg" alt="nuestras novedades más esperadas" class="slide-img">
+        <div class="square">
+          <div class="light-square">
+            <h2 class="light-sect-title">NUESTRAS NOVEDADES MÁS ESPERADAS</h2>
+            <p class="light-text">¡Ven y pruébalas!</p>
+            <a href="#" class="orange-btn">Más información</a>
+          </div>
+        </div>
+      </article>
 
-        <article class="slide-fade">
-          <img src="assets/media/img/auto-slideshow-1/nuevas-pastas-rellenas.jpg" alt="nuevas pastas rellenas" class="slide-img">
-          <article class="square">
-            <article class="light-square">
+      <article class="slide fade">
+        <img src="assets/media/img/auto-slideshow-1/nuevas-pastas-rellenas.jpg" alt="nuevas pastas rellenas" class="slide-img">
+        <div class="square">
+          <div class="light-square">
               <h2 class="light-sect-title">NUEVAS PASTAS RELLENAS</h2>
               <p class="light-text">Descubre nuestras irresistibles pastas rellenas.</p>
               <a href="#" class="orange-btn">Más información</a>
-            </article>
-          </article>
-        </article>
+          </div>
+        </div>
+      </article>
 
-        <article class="slide-fade">
-          <img src="assets/media/img/auto-slideshow-1/good-go.jpg" alt="good go" class="slide-img">
-          <article class="square">
-            <article class="light-square">
-              <h2 class="light-sect-title">EVITAR EL DESPERDICIO ALIMENTARIO</h2>
-              <p class="light-text">Es un paso hacia un planeta más limpio y verde.</p>
-              <a href="#" class="orange-btn">Saber más</a>
-            </article>
-          </article>
-        </article>
-
+      <article class="slide fade">
+        <img src="assets/media/img/auto-slideshow-1/good-go.jpg" alt="good go" class="slide-img">
+        <v class="square">
+          <div class="light-square">
+            <h2 class="light-sect-title">EVITAR EL DESPERDICIO ALIMENTARIO</h2>
+            <p class="light-text">Es un paso hacia un planeta más limpio y verde.</p>
+            <a href="#" class="orange-btn">Saber más</a>
+          </div>
+        </div>
       </article>
 
       <article class="dots">
@@ -137,7 +133,29 @@
         <span class="dot"></span>
       </article>
 
-    </section>
+    </section> -->
+
+    <div class="slideshow-container">
+
+      <div class="mySlides fade">
+        <img src="assets/media/img/auto-slideshow-1/mes-de-la-pizza-solidaria.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides fade">
+        <img src="assets/media/img/auto-slideshow-1/nuestras-novedades-mas-esperadas.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides fade">
+        <img src="assets/media/img/auto-slideshow-1/nuevas-pastas-rellenas.jpg" style="width:100%">
+      </div>
+
+    </div>
+
+    <div style="text-align:center">
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+    </div>
 
     <!-- discover menu -->
     <section id="discover-menu">
@@ -344,6 +362,9 @@
     </article>
 
   </footer>
+
+  <!-- scripts -->
+  <script src="assets/js/slide.js"></script>
 
 </body>
 </html>
